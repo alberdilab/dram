@@ -41,7 +41,7 @@ rule dram:
 	DRAM.py annotate \
                 -i {input.graph} \
                 -o {params.outputdir} \
-		--config_loc dram_config
+		--config_loc dram_config \
                 --threads {threads} \
                 --min_contig_size 1500 
         """
