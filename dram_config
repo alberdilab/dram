@@ -1,0 +1,32 @@
+{
+  "search_databases": {
+    "kegg": null,
+    "kofam_hmm": /datasets/globe_databases/dram/20240606/kofam_profiles.hmm,
+    "kofam_ko_list": /datasets/globe_databases/dram/20240606/kofam_ko_list.tsv,
+    "uniref": /datasets/globe_databases/dram/20240606/uniref90.20240607.mmsdb,
+    "pfam": /datasets/globe_databases/dram/20240606/Pfam-A.hmm.dat.gz,
+    "dbcan": /datasets/globe_databases/dram/20240606/dbCAN-HMMdb-V11.txt,
+    "viral": /datasets/globe_databases/dram/20240606/refseq_viral.20240607.mmsdb,
+    "peptidase": /datasets/globe_databases/dram/20240606/peptidases.20240607.mmsdb,
+    "vogdb": /datasets/globe_databases/dram/20240606/vog_latest_hmms.txt,
+    "camper_fa_db": null,
+    "camper_fa_db_cutoffs": null,
+    "camper_hmm": null
+  },
+  "custom_dbs": null,
+  "database_descriptions": {
+    "pfam_hmm_dat": /datasets/globe_databases/dram/20240606/Pfam-A.hmm.dat.gz,
+    "dbcan_fam_activities": /datasets/globe_databases/dram/20240606/CAZyDB.08062022.fam-activities.txt,
+    "vog_annotations": /datasets/globe_databases/dram/20240606/vog_annotations_latest.tsv.gz
+  },
+  "dram_sheets": {
+    "camper_distillate": null,
+    "genome_summary_form": /datasets/globe_databases/dram/20240606/genome_summary_form.20240607.tsv,
+    "module_step_form": /datasets/globe_databases/dram/20240606/module_step_form.20240607.tsv,
+    "etc_module_database": /datasets/globe_databases/dram/20240606/etc_mdoule_database.20240607.tsv,
+    "function_heatmap_form": /datasets/globe_databases/dram/20240606/function_heatmap_form.20240607.tsv,
+    "amg_database": /datasets/globe_databases/dram/20240606/amg_database.20240607.tsv
+  },
+  "description_db": /datasets/globe_databases/dram/20240606/description_db.sqlite,
+  "dram_version": 1.5.0
+}
