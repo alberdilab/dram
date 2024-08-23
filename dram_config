@@ -17,6 +17,7 @@
   "database_descriptions": {
     "pfam_hmm_dat": "/datasets/globe_databases/dram/20240606/Pfam-A.hmm.dat.gz",
     "dbcan_fam_activities": "/datasets/globe_databases/dram/20240606/CAZyDB.08062022.fam-activities.txt",
+    "dbcan_subfam_ec": "/datasets/globe_databases/dram/20240606/CAZyDB.08062022.fam.subfam.ec.txt",
     "vog_annotations": "/datasets/globe_databases/dram/20240606/vog_annotations_latest.tsv.gz"
   },
   "dram_sheets": {
