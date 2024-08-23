@@ -4,7 +4,7 @@
     "kofam_hmm": "/datasets/globe_databases/dram/20240606/kofam_profiles.hmm",
     "kofam_ko_list": "/datasets/globe_databases/dram/20240606/kofam_ko_list.tsv",
     "uniref": "/datasets/globe_databases/dram/20240606/uniref90.20240607.mmsdb",
-    "pfam": "/datasets/globe_databases/dram/20240606/Pfam-A.hmm.dat.gz",
+    "pfam": "/datasets/globe_databases/dram/20240606/pfam.mmspro",
     "dbcan": "/datasets/globe_databases/dram/20240606/dbCAN-HMMdb-V11.txt",
     "viral": "/datasets/globe_databases/dram/20240606/refseq_viral.20240607.mmsdb",
     "peptidase": "/datasets/globe_databases/dram/20240606/peptidases.20240607.mmsdb",
