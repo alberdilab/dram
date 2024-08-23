@@ -36,7 +36,7 @@ rule dram:
         time='04:00:00'
     shell:
         """
-	module load dram/1.5.0
+	source activate /projects/mjolnir1/people/ncl550/0_software/miniconda3/envs/DRAM_more_modules
 	rm -rf {params.outputdir}
 	DRAM.py annotate \
                 -i {input.graph} \
