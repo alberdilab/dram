@@ -36,11 +36,12 @@ rule dram:
         time='04:00:00'
     shell:
         """
-	source activate /projects/mjolnir1/people/ncl550/0_software/miniconda3/envs/DRAM_more_modules
+	module load dram/1.5.0
 	rm -rf {params.outputdir}
 	DRAM.py annotate \
                 -i {input.graph} \
                 -o {params.outputdir} \
+		--config_loc dram_config
                 --threads {threads} \
                 --min_contig_size 1500 
         """
