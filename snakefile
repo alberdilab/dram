@@ -14,7 +14,7 @@
 ######
 
 #List sample wildcards
-genomes, = glob_wildcards("input/{genome}.txt")
+genomes, = glob_wildcards("input/{genome}.fa")
 
 #Target files
 rule all:
