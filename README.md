@@ -1,5 +1,5 @@
-# dram
-Repo for rapid DRAM annotation
+# Run DRAM in Mjolnir
+Repo for rapid genome annotation using DRAM in Mjolnir.
 
 1. Clone this repo.
 2. Place genomes with .fa extension in the `input` folder.
