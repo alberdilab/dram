@@ -19,7 +19,7 @@ genomes, = glob_wildcards("input/{genome}.fa")
 #Target files
 rule all:
     input:
-        expand("annotations/{genome}/annotations.tsv", genome=genomes)
+        expand("output/{genome}/annotations.tsv", genome=genomes)
 
 rule dram:
     input:
