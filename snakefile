@@ -23,7 +23,7 @@ rule all:
 
 rule dram:
     input:
-        graph="input/{genome}.fa"
+        "input/{genome}.fa"
     output:
         annotations="output/{genome}/annotations.tsv"
     params:
@@ -39,7 +39,7 @@ rule dram:
 	module load dram/1.5.0
 	rm -rf {params.outputdir}
 	DRAM.py annotate \
-                -i {input.graph} \
+                -i {input} \
                 -o {params.outputdir} \
 		--config_loc dram_config \
                 --threads {threads} \
