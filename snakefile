@@ -32,7 +32,7 @@ rule dram:
     threads:
         1
     resources:
-        mem_gb=8,
+        mem_gb=24,
         time='02:00:00'
     shell:
         """
