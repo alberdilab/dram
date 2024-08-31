@@ -5,7 +5,7 @@
 # Description: the pipeline creates, annotates and analyses pangenomes.
 #
 # 1) Clone this repo.
-# 2) Place genomes with .fa extension in the input folder.
+# 2) Place genomes with .fna extension in the input folder.
 # 3) Create a screen session.
 # 4) Launch the snakemake using the following code:
 # module purge && module load snakemake/7.20.0 mamba/1.3.1
@@ -23,7 +23,7 @@ rule all:
 
 rule dram:
     input:
-        "input/{genome}.fa"
+        "input/{genome}.fna"
     output:
         annotations="output/{genome}/annotations.tsv"
     params:
